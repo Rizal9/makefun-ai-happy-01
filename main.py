@@ -9,6 +9,10 @@ MAKEFUN_OUTPUT_DIR stands in for /output. It writes exactly one file,
 entry.png, byte for byte the same on every run.
 """
 
+# This program copies entry.png to the output dir.
+# It does not generate or edit the image at all.
+# The copied file is byte-for-byte identical to the source.
+
 import os
 import shutil
 import sys
